@@ -62,6 +62,11 @@ export default function LoginForm() {
           </div>
         </div>
         <LoginButton />
+        <div className="rounded-md bg-blue-50 p-4 text-sm text-blue-700 mt-4">
+          <p className="font-semibold mb-1">Demo credentials</p>
+          <p>Email: <span className="font-mono">user@nextmail.com</span></p>
+          <p>Password: <span className="font-mono">123456</span></p>
+        </div>
         <div 
           className="flex h-8 items-end space-x-1"
           aria-live="polite"
